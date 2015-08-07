@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312F64AA1B745DA300174F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F64A91B745DA300174F85 /* main.m */; };
+		312F64AD1B745DA300174F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F64AC1B745DA300174F85 /* AppDelegate.m */; };
+		312F64B01B745DA300174F85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F64AF1B745DA300174F85 /* ViewController.m */; };
+		312F64B51B745DA300174F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312F64B41B745DA300174F85 /* Images.xcassets */; };
+		312F64B81B745DA300174F85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 312F64B61B745DA300174F85 /* LaunchScreen.xib */; };
+		312F64EE1B745F4400174F85 /* MySSDB.mm in Sources */ = {isa = PBXBuildFile; fileRef = 312F64ED1B745F4400174F85 /* MySSDB.mm */; };
+		312F64F51B7460C400174F85 /* libleveldb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F11B7460C400174F85 /* libleveldb-ios.a */; };
+		312F64F61B7460C400174F85 /* libsnappy-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F21B7460C400174F85 /* libsnappy-ios.a */; };
+		312F64F71B7460C400174F85 /* libssdb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F31B7460C400174F85 /* libssdb-ios.a */; };
+		312F64F81B7460C400174F85 /* libutil-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F41B7460C400174F85 /* libutil-ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312F64A41B745DA300174F85 /* ssdb-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ssdb-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312F64A81B745DA300174F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312F64A91B745DA300174F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312F64AB1B745DA300174F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		312F64AC1B745DA300174F85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		312F64AE1B745DA300174F85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		312F64AF1B745DA300174F85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		312F64B41B745DA300174F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		312F64B71B745DA300174F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		312F64EC1B745F4400174F85 /* MySSDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySSDB.h; sourceTree = "<group>"; };
+		312F64ED1B745F4400174F85 /* MySSDB.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySSDB.mm; sourceTree = "<group>"; };
+		312F64F11B7460C400174F85 /* libleveldb-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libleveldb-ios.a"; path = "../deps/libleveldb-ios.a"; sourceTree = "<group>"; };
+		312F64F21B7460C400174F85 /* libsnappy-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsnappy-ios.a"; path = "../deps/libsnappy-ios.a"; sourceTree = "<group>"; };
+		312F64F31B7460C400174F85 /* libssdb-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libssdb-ios.a"; path = "../deps/libssdb-ios.a"; sourceTree = "<group>"; };
+		312F64F41B7460C400174F85 /* libutil-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libutil-ios.a"; path = "../deps/libutil-ios.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312F64A11B745DA300174F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F64F51B7460C400174F85 /* libleveldb-ios.a in Frameworks */,
+				312F64F61B7460C400174F85 /* libsnappy-ios.a in Frameworks */,
+				312F64F71B7460C400174F85 /* libssdb-ios.a in Frameworks */,
+				312F64F81B7460C400174F85 /* libutil-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312F649B1B745DA300174F85 = {
+			isa = PBXGroup;
+			children = (
+				312F64A61B745DA300174F85 /* ssdb-ios */,
+				312F64A51B745DA300174F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312F64A51B745DA300174F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312F64A41B745DA300174F85 /* ssdb-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312F64A61B745DA300174F85 /* ssdb-ios */ = {
+			isa = PBXGroup;
+			children = (
+				312F64AB1B745DA300174F85 /* AppDelegate.h */,
+				312F64AC1B745DA300174F85 /* AppDelegate.m */,
+				312F64AE1B745DA300174F85 /* ViewController.h */,
+				312F64AF1B745DA300174F85 /* ViewController.m */,
+				312F64EC1B745F4400174F85 /* MySSDB.h */,
+				312F64ED1B745F4400174F85 /* MySSDB.mm */,
+				312F64A71B745DA300174F85 /* Supporting Files */,
+			);
+			path = "ssdb-ios";
+			sourceTree = "<group>";
+		};
+		312F64A71B745DA300174F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				312F64A81B745DA300174F85 /* Info.plist */,
+				312F64A91B745DA300174F85 /* main.m */,
+				312F64B61B745DA300174F85 /* LaunchScreen.xib */,
+				312F64B41B745DA300174F85 /* Images.xcassets */,
+				312F64F11B7460C400174F85 /* libleveldb-ios.a */,
+				312F64F21B7460C400174F85 /* libsnappy-ios.a */,
+				312F64F31B7460C400174F85 /* libssdb-ios.a */,
+				312F64F41B7460C400174F85 /* libutil-ios.a */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312F64A31B745DA300174F85 /* ssdb-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312F64C71B745DA300174F85 /* Build configuration list for PBXNativeTarget "ssdb-ios" */;
+			buildPhases = (
+				312F64A01B745DA300174F85 /* Sources */,
+				312F64A11B745DA300174F85 /* Frameworks */,
+				312F64A21B745DA300174F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ssdb-ios";
+			productName = "ssdb-ios";
+			productReference = 312F64A41B745DA300174F85 /* ssdb-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312F649C1B745DA300174F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ideawu;
+				TargetAttributes = {
+					312F64A31B745DA300174F85 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 312F649F1B745DA300174F85 /* Build configuration list for PBXProject "ssdb-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312F649B1B745DA300174F85;
+			productRefGroup = 312F64A51B745DA300174F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312F64A31B745DA300174F85 /* ssdb-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312F64A21B745DA300174F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F64B81B745DA300174F85 /* LaunchScreen.xib in Resources */,
+				312F64B51B745DA300174F85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312F64A01B745DA300174F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F64B01B745DA300174F85 /* ViewController.m in Sources */,
+				312F64EE1B745F4400174F85 /* MySSDB.mm in Sources */,
+				312F64AD1B745DA300174F85 /* AppDelegate.m in Sources */,
+				312F64AA1B745DA300174F85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		312F64B61B745DA300174F85 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312F64B71B745DA300174F85 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		312F64C51B745DA300174F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		312F64C61B745DA300174F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312F64C81B745DA300174F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/deps/include",
+				);
+				INFOPLIST_FILE = "ssdb-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/deps",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		312F64C91B745DA300174F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/deps/include",
+				);
+				INFOPLIST_FILE = "ssdb-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/deps",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312F649F1B745DA300174F85 /* Build configuration list for PBXProject "ssdb-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312F64C51B745DA300174F85 /* Debug */,
+				312F64C61B745DA300174F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312F64C71B745DA300174F85 /* Build configuration list for PBXNativeTarget "ssdb-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312F64C81B745DA300174F85 /* Debug */,
+				312F64C91B745DA300174F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312F649C1B745DA300174F85 /* Project object */;
+}
