@@ -6,4 +6,12 @@ libssdb.a 是一个 C++ 静态库, 可以直接在 Objective-C 代码里使用, 
 
 C++ 的接口比较多, 具体的文档是 http://ssdb.io/docs/cpp/index.html
 
-我封装了 `MySSDB.h` 和 `MySSDB.mm`, 但只包含了了 `get, set, del` 3 个原生的 OC 方法, 但你可以参考着完善缺少的方法. 后面我会继续补充.
+我封装了 `MySSDB.h` 和 `MySSDB.mm`, 这样, 你就可以不需要把 OC 文件改名, 因为它暴露的是 Objective-C 的接口.
+
+目前只包含了部分接口:
+
+* get
+* set
+* del
+
+你可以参考着完善缺少的方法. 后面我会继续补充.
