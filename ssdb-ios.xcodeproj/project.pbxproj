@@ -17,6 +17,7 @@
 		312F64F61B7460C400174F85 /* libsnappy-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F21B7460C400174F85 /* libsnappy-ios.a */; };
 		312F64F71B7460C400174F85 /* libssdb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F31B7460C400174F85 /* libssdb-ios.a */; };
 		312F64F81B7460C400174F85 /* libutil-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F41B7460C400174F85 /* libutil-ios.a */; };
+		CE6E6DE21FC4879D002574D1 /* MySSDB+Extension.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE6E6DE11FC4879D002574D1 /* MySSDB+Extension.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		312F64F21B7460C400174F85 /* libsnappy-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsnappy-ios.a"; path = "../deps/libsnappy-ios.a"; sourceTree = "<group>"; };
 		312F64F31B7460C400174F85 /* libssdb-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libssdb-ios.a"; path = "../deps/libssdb-ios.a"; sourceTree = "<group>"; };
 		312F64F41B7460C400174F85 /* libutil-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libutil-ios.a"; path = "../deps/libutil-ios.a"; sourceTree = "<group>"; };
+		CE6E6DE01FC4879D002574D1 /* MySSDB+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MySSDB+Extension.h"; sourceTree = "<group>"; };
+		CE6E6DE11FC4879D002574D1 /* MySSDB+Extension.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "MySSDB+Extension.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				312F64AF1B745DA300174F85 /* ViewController.m */,
 				312F64EC1B745F4400174F85 /* MySSDB.h */,
 				312F64ED1B745F4400174F85 /* MySSDB.mm */,
+				CE6E6DE01FC4879D002574D1 /* MySSDB+Extension.h */,
+				CE6E6DE11FC4879D002574D1 /* MySSDB+Extension.mm */,
 				312F64A71B745DA300174F85 /* Supporting Files */,
 			);
 			path = "ssdb-ios";
@@ -170,6 +175,7 @@
 				312F64EE1B745F4400174F85 /* MySSDB.mm in Sources */,
 				312F64AD1B745DA300174F85 /* AppDelegate.m in Sources */,
 				312F64AA1B745DA300174F85 /* main.m in Sources */,
+				CE6E6DE21FC4879D002574D1 /* MySSDB+Extension.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
