@@ -17,9 +17,9 @@
 - (BOOL)set:(NSString *)key string:(NSString *)string;
 - (BOOL)set:(NSString *)key data:(NSData *)data;
 /**
- * found:	 ret=YES & string != nil
- * not_found: ret=YES & string == nil
- * error:	 ret=NO
+ * found:		ret == YES & string != nil
+ * not_found:	ret == YES & string == nil
+ * error:		ret == NO
  */
 - (BOOL)get:(NSString *)key string:(NSString **)string;
 - (BOOL)get:(NSString *)key data:(NSData **)data;
