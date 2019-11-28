@@ -15,3 +15,8 @@ C++ 的接口比较多, 具体的文档是 http://ssdb.io/docs/cpp/index.html
 * del
 
 你可以参考着完善缺少的方法. 后面我会继续补充.
+
+## ssdb.framework 打包
+
+你可以使用 https://github.com/mysteriouss/ssdb.framework.iOS 来生成 ssdb.framework, 这样引用 ssdb 库的时候更方便.
+
