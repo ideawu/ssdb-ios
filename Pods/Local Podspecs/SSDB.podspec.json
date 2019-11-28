@@ -1,0 +1,79 @@
+{
+  "name": "SSDB",
+  "version": "1.0.0",
+  "summary": "SSDB - A fast NoSQL database, an alternative to Redis",
+  "description": "SSDB - A fast NoSQL database for storing big list of data",
+  "homepage": "https://github.com/ideawu/ssdb",
+  "license": "New BSD License",
+  "authors": {
+    "ideawu": "",
+    "mysteriouss": ""
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/mysteriouss/ssdb.framework.iOS.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "ssdb/*",
+  "public_header_files": "ssdb/*.h",
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "compiler-default",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "libraries": [
+    "c++",
+    "stdc++"
+  ],
+  "header_mappings_dir": "ssdb",
+  "exclude_files": [
+
+  ],
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "util",
+      "source_files": "ssdb/util/*"
+    },
+    {
+      "name": "snappy",
+      "source_files": "ssdb/snappy/*"
+    },
+    {
+      "name": "leveldb",
+      "libraries": [
+        "c++",
+        "stdc++"
+      ],
+      "subspecs": [
+        {
+          "name": "db",
+          "source_files": "ssdb/leveldb/db/*"
+        },
+        {
+          "name": "include",
+          "source_files": "ssdb/leveldb/include/*"
+        },
+        {
+          "name": "port",
+          "source_files": "ssdb/leveldb/port/*"
+        },
+        {
+          "name": "table",
+          "source_files": "ssdb/leveldb/table/*"
+        },
+        {
+          "name": "util",
+          "source_files": "ssdb/leveldb/util/*"
+        }
+      ]
+    },
+    {
+      "name": "ssdb",
+      "source_files": "ssdb/ssdb/*",
+      "public_header_files": "ssdb/ssdb/*.h"
+    }
+  ]
+}

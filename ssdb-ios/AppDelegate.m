@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MySSDB.h"
+#import <SSDB/SSDB.h>
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
 	// Override point for customization after application launch.
 	BOOL ret;
 	
-	MySSDB *db = [MySSDB open:@"ssdb"];
+	SSDB *db = [SSDB shared];
 	NSString *key = @"key";
 	NSString *content = @"www";
 	NSString *val = nil;
@@ -41,7 +41,7 @@
 		NSLog(@"val=%@", val);
 	}
 	
-	[db close]; // close db
+	//[db close]; // close db
 	
 	return YES;
 }
