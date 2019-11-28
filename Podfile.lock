@@ -1,0 +1,34 @@
+PODS:
+  - SSDB (1.0.0):
+    - SSDB/leveldb (= 1.0.0)
+    - SSDB/snappy (= 1.0.0)
+    - SSDB/ssdb (= 1.0.0)
+    - SSDB/util (= 1.0.0)
+  - SSDB/leveldb (1.0.0):
+    - SSDB/leveldb/db (= 1.0.0)
+    - SSDB/leveldb/include (= 1.0.0)
+    - SSDB/leveldb/port (= 1.0.0)
+    - SSDB/leveldb/table (= 1.0.0)
+    - SSDB/leveldb/util (= 1.0.0)
+  - SSDB/leveldb/db (1.0.0)
+  - SSDB/leveldb/include (1.0.0)
+  - SSDB/leveldb/port (1.0.0)
+  - SSDB/leveldb/table (1.0.0)
+  - SSDB/leveldb/util (1.0.0)
+  - SSDB/snappy (1.0.0)
+  - SSDB/ssdb (1.0.0)
+  - SSDB/util (1.0.0)
+
+DEPENDENCIES:
+  - SSDB (from `https://raw.github.com/mysteriouss/ssdb.framework.iOS/master/ssdb.podspec`)
+
+EXTERNAL SOURCES:
+  SSDB:
+    :podspec: https://raw.github.com/mysteriouss/ssdb.framework.iOS/master/ssdb.podspec
+
+SPEC CHECKSUMS:
+  SSDB: 798bbe2a8c85dd462ec5621fe6e50bce46f11d39
+
+PODFILE CHECKSUM: 4208c0a3cf0d68dfbc540bb39a7401cb177e8916
+
+COCOAPODS: 1.8.4

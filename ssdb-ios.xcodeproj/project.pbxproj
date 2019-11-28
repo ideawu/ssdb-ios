@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023D5684305BA2D7CE132A27 /* libPods-ssdb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A078E486720CC04FF4B8B496 /* libPods-ssdb-ios.a */; };
 		312F64AA1B745DA300174F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F64A91B745DA300174F85 /* main.m */; };
 		312F64AD1B745DA300174F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F64AC1B745DA300174F85 /* AppDelegate.m */; };
 		312F64B01B745DA300174F85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F64AF1B745DA300174F85 /* ViewController.m */; };
 		312F64B51B745DA300174F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312F64B41B745DA300174F85 /* Images.xcassets */; };
 		312F64B81B745DA300174F85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 312F64B61B745DA300174F85 /* LaunchScreen.xib */; };
-		312F64EE1B745F4400174F85 /* MySSDB.mm in Sources */ = {isa = PBXBuildFile; fileRef = 312F64ED1B745F4400174F85 /* MySSDB.mm */; };
-		312F64F51B7460C400174F85 /* libleveldb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F11B7460C400174F85 /* libleveldb-ios.a */; };
-		312F64F61B7460C400174F85 /* libsnappy-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F21B7460C400174F85 /* libsnappy-ios.a */; };
-		312F64F71B7460C400174F85 /* libssdb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F31B7460C400174F85 /* libssdb-ios.a */; };
-		312F64F81B7460C400174F85 /* libutil-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312F64F41B7460C400174F85 /* libutil-ios.a */; };
-		CE6E6DE21FC4879D002574D1 /* MySSDB+Extension.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE6E6DE11FC4879D002574D1 /* MySSDB+Extension.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25DFDDFA58A01EB162466D3B /* Pods-ssdb-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssdb-ios.debug.xcconfig"; path = "Target Support Files/Pods-ssdb-ios/Pods-ssdb-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		28EAFE55C53151AC51467FD7 /* Pods-ssdb-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssdb-ios.release.xcconfig"; path = "Target Support Files/Pods-ssdb-ios/Pods-ssdb-ios.release.xcconfig"; sourceTree = "<group>"; };
 		312F64A41B745DA300174F85 /* ssdb-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ssdb-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		312F64A81B745DA300174F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312F64A91B745DA300174F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -30,14 +27,7 @@
 		312F64AF1B745DA300174F85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		312F64B41B745DA300174F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		312F64B71B745DA300174F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		312F64EC1B745F4400174F85 /* MySSDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySSDB.h; sourceTree = "<group>"; };
-		312F64ED1B745F4400174F85 /* MySSDB.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySSDB.mm; sourceTree = "<group>"; };
-		312F64F11B7460C400174F85 /* libleveldb-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libleveldb-ios.a"; path = "../deps/libleveldb-ios.a"; sourceTree = "<group>"; };
-		312F64F21B7460C400174F85 /* libsnappy-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsnappy-ios.a"; path = "../deps/libsnappy-ios.a"; sourceTree = "<group>"; };
-		312F64F31B7460C400174F85 /* libssdb-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libssdb-ios.a"; path = "../deps/libssdb-ios.a"; sourceTree = "<group>"; };
-		312F64F41B7460C400174F85 /* libutil-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libutil-ios.a"; path = "../deps/libutil-ios.a"; sourceTree = "<group>"; };
-		CE6E6DE01FC4879D002574D1 /* MySSDB+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MySSDB+Extension.h"; sourceTree = "<group>"; };
-		CE6E6DE11FC4879D002574D1 /* MySSDB+Extension.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "MySSDB+Extension.mm"; sourceTree = "<group>"; };
+		A078E486720CC04FF4B8B496 /* libPods-ssdb-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssdb-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312F64F51B7460C400174F85 /* libleveldb-ios.a in Frameworks */,
-				312F64F61B7460C400174F85 /* libsnappy-ios.a in Frameworks */,
-				312F64F71B7460C400174F85 /* libssdb-ios.a in Frameworks */,
-				312F64F81B7460C400174F85 /* libutil-ios.a in Frameworks */,
+				023D5684305BA2D7CE132A27 /* libPods-ssdb-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +47,8 @@
 			children = (
 				312F64A61B745DA300174F85 /* ssdb-ios */,
 				312F64A51B745DA300174F85 /* Products */,
+				B91D68AF12828AB77E380097 /* Pods */,
+				7BE3093C948BA99FDAA974A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +67,6 @@
 				312F64AC1B745DA300174F85 /* AppDelegate.m */,
 				312F64AE1B745DA300174F85 /* ViewController.h */,
 				312F64AF1B745DA300174F85 /* ViewController.m */,
-				312F64EC1B745F4400174F85 /* MySSDB.h */,
-				312F64ED1B745F4400174F85 /* MySSDB.mm */,
-				CE6E6DE01FC4879D002574D1 /* MySSDB+Extension.h */,
-				CE6E6DE11FC4879D002574D1 /* MySSDB+Extension.mm */,
 				312F64A71B745DA300174F85 /* Supporting Files */,
 			);
 			path = "ssdb-ios";
@@ -94,12 +79,25 @@
 				312F64A91B745DA300174F85 /* main.m */,
 				312F64B61B745DA300174F85 /* LaunchScreen.xib */,
 				312F64B41B745DA300174F85 /* Images.xcassets */,
-				312F64F11B7460C400174F85 /* libleveldb-ios.a */,
-				312F64F21B7460C400174F85 /* libsnappy-ios.a */,
-				312F64F31B7460C400174F85 /* libssdb-ios.a */,
-				312F64F41B7460C400174F85 /* libutil-ios.a */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BE3093C948BA99FDAA974A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A078E486720CC04FF4B8B496 /* libPods-ssdb-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B91D68AF12828AB77E380097 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25DFDDFA58A01EB162466D3B /* Pods-ssdb-ios.debug.xcconfig */,
+				28EAFE55C53151AC51467FD7 /* Pods-ssdb-ios.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 312F64C71B745DA300174F85 /* Build configuration list for PBXNativeTarget "ssdb-ios" */;
 			buildPhases = (
+				D038E7B5505CCD4048FC28B6 /* [CP] Check Pods Manifest.lock */,
 				312F64A01B745DA300174F85 /* Sources */,
 				312F64A11B745DA300174F85 /* Frameworks */,
 				312F64A21B745DA300174F85 /* Resources */,
@@ -141,6 +140,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -166,16 +166,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D038E7B5505CCD4048FC28B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ssdb-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		312F64A01B745DA300174F85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				312F64B01B745DA300174F85 /* ViewController.m in Sources */,
-				312F64EE1B745F4400174F85 /* MySSDB.mm in Sources */,
 				312F64AD1B745DA300174F85 /* AppDelegate.m in Sources */,
 				312F64AA1B745DA300174F85 /* main.m in Sources */,
-				CE6E6DE21FC4879D002574D1 /* MySSDB+Extension.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +300,7 @@
 		};
 		312F64C81B745DA300174F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DFDDFA58A01EB162466D3B /* Pods-ssdb-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -297,6 +321,7 @@
 		};
 		312F64C91B745DA300174F85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EAFE55C53151AC51467FD7 /* Pods-ssdb-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
